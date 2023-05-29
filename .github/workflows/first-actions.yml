@@ -17,9 +17,9 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 		
-	- name: Build and push docker image
-	  uses: mr-smithers-excellent/docker-build-push@v6
-	  with:
+    - name: Build and push docker image
+      uses: mr-smithers-excellent/docker-build-push@v6
+      with:
           image: sudhadn/python-hello-world
           tags: latest
           registry: docker.io
