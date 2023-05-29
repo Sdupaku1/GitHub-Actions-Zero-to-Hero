@@ -27,4 +27,4 @@ jobs:
       - name: Install dependencies
         run: |
           docker pull sudhadn/python-hello-world:latest
-          docker run -p 8080:8080 -it bash python-hello-world:latest
+          docker run -p 8080:8080 python-hello-world:latest
