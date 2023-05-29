@@ -27,3 +27,4 @@ jobs:
       - name: Install dependencies
         run: |
           docker pull sudhadn/python-hello-world
+          docker images
