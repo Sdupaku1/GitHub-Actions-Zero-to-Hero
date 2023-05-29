@@ -28,4 +28,4 @@ jobs:
         run: |
           docker pull sudhadn/python-hello-world
           docker images
-          docker run -p 8080:8080 python-hello-world
+          docker run -p 8080:8080 sudhadn/python-hello-world
