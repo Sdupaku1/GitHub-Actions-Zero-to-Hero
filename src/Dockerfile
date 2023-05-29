@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.8
 
 COPY greeting.py /usr/local/share/
 
