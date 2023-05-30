@@ -4,4 +4,4 @@ COPY src/greeting.py .
 
 EXPOSE 8080
 
-CMD ["python", "greeting.py"]
+CMD python greeting.py && bash
